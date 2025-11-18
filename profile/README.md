@@ -1,4 +1,4 @@
-# Smith Tools 🛠️
+# Smith Tools 🕶️
 
 **Context-efficient Swift build analysis and optimization tools for AI development workflows**
 
