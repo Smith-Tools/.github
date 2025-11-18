@@ -8,7 +8,7 @@
 
 Smith Tools is a comprehensive framework that helps Swift teams:
 
-- **Prevent architectural violations** with automated validation (Rules 1.1-1.5)
+- **Identify architectural opportunities** with automated validation (Rules 1.1-1.5)
 - **Extract monolithic features** systematically with effort estimation
 - **Improve testability** by detecting closure injection and untestable patterns
 - **Validate code patterns** against expert best practices
@@ -19,7 +19,7 @@ Smith Tools is a comprehensive framework that helps Swift teams:
 
 Developers waste time on:
 - ✗ Deciding when to extract reducers vs. keep state flat
-- ✗ Understanding whether their architecture violates composition rules
+- ✗ Understanding whether their architecture has composition opportunities
 - ✗ Finding the WWDC session that explained this exact pattern
 - ✗ Knowing how much effort refactoring will take
 - ✗ Validating code against inconsistent architectural standards
@@ -79,7 +79,7 @@ Smith Tools is a collection of independent, well-integrated components:
 
 The main integration point for Claude Code users. Provides:
 
-- **TCA Composition Validators** - Automatically detect architectural violations
+- **TCA Composition Validators** - Automatically detect architectural opportunities
 - **Build Analysis Tools** - Context-efficient compilation debugging
 - **Pattern Library** - 40+ validated TCA, concurrency, and testing patterns
 - **Decision Trees** - Architectural guidance for common scenarios
@@ -104,7 +104,7 @@ Complementary skill providing real-time access to Apple ecosystem:
 
 Automated architectural analysis:
 
-1. **validate-tca-composition.sh** - Detects Rules 1.1-1.5 violations
+1. **validate-tca-composition.sh** - Detects Rules 1.1-1.5 opportunities
    - Monolithic features (State > 15 props, Actions > 40 cases)
    - Closure dependency injection (blocks testing)
    - Code duplication
