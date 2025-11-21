@@ -212,6 +212,9 @@ graph LR
         B1 --> E1[Build Issues]
         C1 --> F1[Validation Logic]
         D1 --> G1[Analysis Logic]
+
+        style A1 fill:#FFEBEE,stroke:#FF5252
+        style B1 fill:#FFEBEE,stroke:#FF5252
     end
 
     subgraph "After v1.0.5"
@@ -222,20 +225,11 @@ graph LR
         C2 --> F2[Universal Patterns]
         D2 --> G2[✅ Clean Validation]
         E2 --> H2[✅ AST Analysis]
+
+        style A2 fill:#E8F5E8,stroke:#4CAF50
+        style B2 fill:#E8F5E8,stroke:#4CAF50
+        style D2 fill:#E3F2FD,stroke:#1976D2
     end
-
-    A1 --> A2: Architecture Fix
-    B1 --> B2: Subprocess Call
-    C1 --> C2: Evolved Purpose
-    D1 --> D2: Same Logic
-    E1 --> E2: Proper Separation
-    F1 --> F2: Internal Only
-    G1 --> G2: Same Results
-
-    style A1 fill:#FFEBEE,stroke:#FF5252
-    style A2 fill:#E8F5E8,stroke:#4CAF50
-    style B2 fill:#E8F5E8,stroke:#4CAF50
-    style D2 fill:#E3F2FD,stroke:#1976D2
 ```
 
 ### Key Architecture Changes
