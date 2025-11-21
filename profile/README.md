@@ -224,13 +224,13 @@ graph LR
         E2 --> H2[✅ AST Analysis]
     end
 
-    A1 -.-> A2: Architecture Fix
-    B1 -.-> B2: Subprocess Call
+    A1 --> A2: Architecture Fix
+    B1 --> B2: Subprocess Call
     C1 --> C2: Evolved Purpose
     D1 --> D2: Same Logic
-    E1 -.-> E2: Proper Separation
-    F1 -.-> F2: Internal Only
-    G1 -.-> G2: Same Results
+    E1 --> E2: Proper Separation
+    F1 --> F2: Internal Only
+    G1 --> G2: Same Results
 
     style A1 fill:#FFEBEE,stroke:#FF5252
     style A2 fill:#E8F5E8,stroke:#4CAF50
