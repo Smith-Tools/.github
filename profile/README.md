@@ -6,7 +6,7 @@
 
 ---
 
-## ⚡️ The New Standard in Swift Engineering
+## ⚡️ The process of developing for Apple platforms optimized for agentic programming
 
 Smith Tools is more than a CLI—it's an **intelligent ecosystem** that pairs with your AI agents to enforce architectural discipline, synthesize knowledge, and accelerate builds. We provide the "Architecture Police" and "Pattern Oracle" that modern Swift teams need.
 
